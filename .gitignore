@@ -8,10 +8,10 @@ venv/
 
 # Data — raw data never committed to git
 data/raw/
-data/processed/
+#data/processed/
 
 # Models
-models/*.pkl
+#models/*.pkl
 
 # Jupyter
 .ipynb_checkpoints/
