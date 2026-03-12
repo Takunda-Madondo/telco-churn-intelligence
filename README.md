@@ -196,10 +196,10 @@ Gradient boosted trees with `scale_pos_weight` for class imbalance, taken throug
 
 | Model | ROC-AUC | F1 (Churn) | Precision | Recall | Threshold |
 |---|---|---|---|---|---|
-| Logistic Regression | — | — | — | — | 0.500 |
-| Random Forest | — | — | — | — | 0.500 |
-| XGBoost (default threshold) | — | — | — | — | 0.500 |
-| **XGBoost (optimised threshold)** | — | — | — | — | **0.614** |
+| Logistic Regression | 0.8501 | 0.6213 | 0.5103 | 0.7941 | 0.500 |
+| Random Forest | 0.8362 | 0.6167 | 0.5558 | 0.6925 | 0.500 |
+| XGBoost (default threshold) | 0.8452 | 0.6188 | 0.5762 | 0.6979 | 0.500 |
+| **XGBoost (optimised threshold)** | 0.8452 | 0.6312 | 0.5762 | 0.6979 | **0.614** |
 
 **XGBoost nested CV:** ROC-AUC `0.8475 ± 0.0127`  |  F1 `0.6307 ± 0.0170`
 
