@@ -203,8 +203,6 @@ Gradient boosted trees with `scale_pos_weight` for class imbalance, taken throug
 
 **XGBoost nested CV:** ROC-AUC `0.8475 ± 0.0127`  |  F1 `0.6307 ± 0.0170`
 
-*ROC-AUC, Precision, Recall, and F1 figures for individual models populate after running `python src/models/train.py`. CV results above reflect actual training runs.*
-
 ### Final Model Selection
 
 The **tuned XGBoost model at threshold 0.614** was selected as the final model because it achieved:
