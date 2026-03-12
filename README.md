@@ -99,12 +99,12 @@ telco-churn-intelligence/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/telco-churn-intelligence.git
+git clone https://github.com/Takunda-Madondo/telco-churn-intelligence.git
 cd telco-churn-intelligence
 
 # 2. Create virtual environment
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+# Windows: venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
@@ -196,14 +196,12 @@ Gradient boosted trees with `scale_pos_weight` for class imbalance, taken throug
 
 | Model | ROC-AUC | F1 (Churn) | Precision | Recall | Threshold |
 |---|---|---|---|---|---|
-| Logistic Regression | — | — | — | — | 0.500 |
-| Random Forest | — | — | — | — | 0.500 |
-| XGBoost (default threshold) | — | — | — | — | 0.500 |
-| **XGBoost (optimised threshold)** | — | — | — | — | **0.614** |
+| Logistic Regression | 0.8501 | 0.6213 | 0.5103 | 0.7941 | 0.500 |
+| Random Forest | 0.8362 | 0.6167 | 0.5558 | 0.6925 | 0.500 |
+| XGBoost (default threshold) | 0.8452 | 0.6188 | 0.5762 | 0.6979 | 0.500 |
+| **XGBoost (optimised threshold)** | 0.8452 | 0.6312 | 0.5762 | 0.6979 | **0.614** |
 
 **XGBoost nested CV:** ROC-AUC `0.8475 ± 0.0127`  |  F1 `0.6307 ± 0.0170`
-
-*ROC-AUC, Precision, Recall, and F1 figures for individual models populate after running `python src/models/train.py`. CV results above reflect actual training runs.*
 
 ### Final Model Selection
 
@@ -259,4 +257,4 @@ Live demo: *[Add Streamlit Community Cloud link after deployment]*
 ## Author
 
 **Taku (Takunda Madondo)** — Data Scientist & Software Engineer  
-[GitHub](https://github.com/YOUR_USERNAME) · [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+[GitHub](https://github.com/Takunda-Madondo) · [LinkedIn](https://www.linkedin.com/in/takunda-madondo/)
