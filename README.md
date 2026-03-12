@@ -236,7 +236,7 @@ Built with Streamlit. Three views:
 - **Customer Explorer** — Filter by risk label, contract, tenure band, and minimum churn probability. Scatter plot and full customer table with CSV download.
 - **Model Insights** — Model comparison table, churn probability distributions by actual status, SHAP feature importance ranking, and marketing action recommendations.
 
-Live demo: *[Add Streamlit Community Cloud link after deployment]*
+Live demo: *[Streamlit Link]https://telco-churn-intelligence.streamlit.app/*
 
 ---
 
