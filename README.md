@@ -99,12 +99,12 @@ telco-churn-intelligence/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/telco-churn-intelligence.git
+git clone https://github.com/Takunda-Madondo/telco-churn-intelligence.git
 cd telco-churn-intelligence
 
 # 2. Create virtual environment
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+# Windows: venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
@@ -259,4 +259,4 @@ Live demo: *[Add Streamlit Community Cloud link after deployment]*
 ## Author
 
 **Taku (Takunda Madondo)** — Data Scientist & Software Engineer  
-[GitHub](https://github.com/YOUR_USERNAME) · [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+[GitHub](https://github.com/Takunda-Madondo) · [LinkedIn](https://www.linkedin.com/in/takunda-madondo/)
